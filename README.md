@@ -151,6 +151,27 @@ npm run dev
 
 ```
 http://localhost:8000/api/v1
+
+
+## API Endpoints
+
+### Auth
+- POST /api/v1/auth/login → Login user
+
+### Users
+- POST /api/v1/users → Create user (Admin)
+- GET /api/v1/users → List users
+
+### Projects
+- POST /api/v1/projects → Create project
+- GET /api/v1/projects → List projects
+- PUT /api/v1/projects/{id} → Update project
+- DELETE /api/v1/projects/{id} → Delete project
+
+### Tasks
+- POST /api/v1/tasks → Create task
+- GET /api/v1/tasks → List tasks (with filters)
+- PUT /api/v1/tasks/{id}/status → Update task status
 ```
 
 ---
